@@ -18,7 +18,7 @@ def get_chat():
     URL = "https://api.openai.com/v1/chat/completions"
     message = e.get().lower()
 
-    open_ai_key = # Personal open AI
+    open_ai_key = # Personal open AI key
     payload = {
         "model":"gpt-3.5-turbo",
         "messages":[{"role":"user","content":message}],
